@@ -1,11 +1,4 @@
-<!--
- * @Author: 阮志雄
- * @Date: 2022-08-29 11:46:32
- * @LastEditTime: 2022-08-29 11:53:06
- * @LastEditors: 阮志雄
- * @Description: In User Settings Edit
- * @FilePath: \vue3-ts-template-with-webpack\src\views\Error\404.vue
--->
+
 <template>
   <section class="error-page">
     <el-empty description="404">

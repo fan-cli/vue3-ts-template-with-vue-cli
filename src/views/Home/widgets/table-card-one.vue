@@ -1,11 +1,4 @@
-<!--
- * @Author: 阮志雄
- * @Date: 2022-09-26 15:56:19
- * @LastEditTime: 2022-09-26 16:06:27
- * @LastEditors: 阮志雄
- * @Description: In User Settings Edit
- * @FilePath: \vue3-ts-template-with-vue-cli\src\views\Home\widgets\table-card-one.vue
--->
+
 <template>
   <el-card class="t-box-card" shadow="never" :body-style="{ padding: '12px' }">
     <template #header>

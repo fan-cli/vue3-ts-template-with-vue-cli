@@ -1,11 +1,4 @@
-/*
- * @Author: 阮志雄
- * @Date: 2021-10-31 02:16:09
- * @LastEditTime: 2022-08-29 12:47:48
- * @LastEditors: 阮志雄
- * @Description: In User Settings Edit
- * @FilePath: \vue3-ts-template-with-webpack\types\globals.d.ts
- */
+
 interface ServerConfigs {
   Version?: string
   Title?: string
