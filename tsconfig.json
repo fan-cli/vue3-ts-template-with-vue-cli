@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": false,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types/", "./types"],
+    "types": ["webpack-env", "element-plus/global"],
+    "paths": {
+      "@/*": ["src/*"],
+      "components/*": ["./src/components/*"],
+      "api/*": ["./src/api/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/**/*.d.ts",
+    "src/components/CurdViews/*.d.ts",
+    "src/**/*.tsx",
+    "types/*.d.ts",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "auto-imports.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}
